@@ -17,6 +17,14 @@
 
 	<dependencies>
 
+		<!-- linking the backend -->
+		<dependency>
+			<groupId>net.sjb</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+
 		<!-- javaee-api -->
 		<dependency>
 			<groupId>javax</groupId>
