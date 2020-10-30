@@ -2,8 +2,6 @@ package net.sjb.shoppingbackend.dto;
 
 public class Category {
 
-	private int id;
-
 	public int getId() {
 		return id;
 	}
@@ -47,6 +45,7 @@ public class Category {
 	/*
 	 * private fields
 	 */
+	private int id;
 	private String name;
 	private String description;
 	private String imageUrl;

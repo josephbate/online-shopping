@@ -12,13 +12,19 @@ $(document).ready(function(){
 		 $(".active").removeClass("active");
 		 $("#contact1").addClass("active");;
 		 break;
+	 case 'All Products':
+		 $(".active").removeClass("active");
+		 $("#listProducts1").addClass("active");;
+		 break;
 	default:
-		$('#home1').class('active');
+		$('#listProducts1').class('active');
+	$('#a_'+ menu).class('active');
+		break;
 	 }
  })
-//$(document).ready(function() {
-//    $.each($('#navbar').find('li'), function() {
-//        $(this).toggleClass('active', 
-//            window.location.pathname.indexOf($(this).find('a').attr('href')) > -1);
-//    }); 
-//});
+// $(document).ready(function() {
+// $.each($('#navbar').find('li'), function() {
+// $(this).toggleClass('active',
+// window.location.pathname.indexOf($(this).find('a').attr('href')) > -1);
+// });
+// });
