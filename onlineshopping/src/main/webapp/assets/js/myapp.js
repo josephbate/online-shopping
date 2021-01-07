@@ -17,8 +17,8 @@ $(document).ready(function(){
 		 $("#listProducts1").addClass("active");;
 		 break;
 	default:
-		$('#listProducts1').class('active');
-	$('#a_'+ menu).class('active');
+		$('#listProducts1').addclass('active');
+		$('#a_'+ menu).addclass('active');
 		break;
 	 }
  })
